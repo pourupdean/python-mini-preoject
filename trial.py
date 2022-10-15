@@ -45,7 +45,6 @@ def area():
         
 def volume():
     selected_solid_shape=solidshape.get()
-#rdtfyguhij
     if selected_solid_shape=="Sphere":
         r=int(radius_entry2.get())
         vol_sphere=myvolume(selected_solid_shape.lower(),0,0,0,r)
@@ -120,7 +119,7 @@ solidshape=StringVar()
 solidshape.set("Select")
 conditions=StringVar()
 conditions.set("Select")
-
+#wertyuio
 
 def show1():
     mylabel=Label(area_frame,text=shapes.get()).pack()
@@ -132,7 +131,7 @@ def show3():
     mylabel3=Label(condition_frame,text=conditions.get()).pack()
     
 
-#area frame
+#area frame si
 shape_options=OptionMenu(area_frame,shapes,"Circle","Square","Triangle","Rectangle").pack()
 mybutton1=Button(area_frame,text="Select shape",command=show1).pack()
 
