@@ -45,7 +45,6 @@ def area():
         
 def volume():
     selected_solid_shape=solidshape.get()
-#rdtfyguhij
     if selected_solid_shape=="Sphere":
         r=int(radius_entry2.get())
         vol_sphere=myvolume(selected_solid_shape.lower(),0,0,0,r)
@@ -113,7 +112,7 @@ note1.add(area_frame,text="Area Calculator")
 note1.add(volume_frame,text="Volume Calculator")
 note1.add(condition_frame,text="Condition Checker")
 
-#Defining shapes and show
+#defining shapes and show
 shapes=StringVar()
 shapes.set("Select")
 solidshape=StringVar()
@@ -132,7 +131,7 @@ def show3():
     mylabel3=Label(condition_frame,text=conditions.get()).pack()
     
 
-#area frame
+#area frame s
 shape_options=OptionMenu(area_frame,shapes,"Circle","Square","Triangle","Rectangle").pack()
 mybutton1=Button(area_frame,text="Select shape",command=show1).pack()
 
@@ -146,7 +145,7 @@ height_entry=Entry(area_frame,font=("Helvetica",20))
 height_entry.pack()
 
 
-#volume frame
+#volume frame option
 volume_options=OptionMenu(volume_frame,solidshape,"Cone","Sphere","Cylinder","Cube","Cuboid").pack()
 mybutton2=Button(volume_frame,text="Select shape",command=show2).pack()
 radius_side2=Label(volume_frame, text="Enter radius or side in m").pack()
