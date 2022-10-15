@@ -112,14 +112,14 @@ note1.add(area_frame,text="Area Calculator")
 note1.add(volume_frame,text="Volume Calculator")
 note1.add(condition_frame,text="Condition Checker")
 
-#Defining shapes and show
+#defining shapes and show
 shapes=StringVar()
 shapes.set("Select")
 solidshape=StringVar()
 solidshape.set("Select")
 conditions=StringVar()
 conditions.set("Select")
-#wertyuio
+
 
 def show1():
     mylabel=Label(area_frame,text=shapes.get()).pack()
@@ -131,7 +131,7 @@ def show3():
     mylabel3=Label(condition_frame,text=conditions.get()).pack()
     
 
-#area frame si
+#area frame s
 shape_options=OptionMenu(area_frame,shapes,"Circle","Square","Triangle","Rectangle").pack()
 mybutton1=Button(area_frame,text="Select shape",command=show1).pack()
 
@@ -145,7 +145,7 @@ height_entry=Entry(area_frame,font=("Helvetica",20))
 height_entry.pack()
 
 
-#volume frame
+#volume frame option
 volume_options=OptionMenu(volume_frame,solidshape,"Cone","Sphere","Cylinder","Cube","Cuboid").pack()
 mybutton2=Button(volume_frame,text="Select shape",command=show2).pack()
 radius_side2=Label(volume_frame, text="Enter radius or side in m").pack()
