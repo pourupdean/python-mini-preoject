@@ -39,7 +39,7 @@ def area():
         area_circle=myArea(SelectedShape.lower(),0,0,0,r)
         messagebox.showinfo("Area Circle",area_circle)
     else:
-        messagebox.showwarning("Invalid Input","This shape is not available")
+        messagebox.showwarning("Invalid Input","shape is not available")
 
 #defining volume function
         
@@ -74,7 +74,7 @@ def volume():
         messagebox.showinfo("Volume Cuboid",vol_cuboid)
 
     else:
-        messagebox.showwarning("Invalid input","This shape is not available")
+        messagebox.showwarning("Invalid input","shape is not available")
         
     
 
@@ -172,7 +172,7 @@ side3_label=Label(condition_frame,text="Enter third number").pack()
 side3_entry=Entry(condition_frame,font=("Helvetica",20))
 side3_entry.pack()
 angle_label=Label(condition_frame,text="Enter angle in degrees").pack()
-angle_entry=Entry(condition_frame,font=("Helvetica",20))
+angle_entry=Entry(condition_frame,font=("Helvetica",10))
 angle_entry.pack()
 
 #button frame
