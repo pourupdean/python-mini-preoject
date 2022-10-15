@@ -1,6 +1,6 @@
 from tkinter import messagebox
 
-#myArea takes 5 args and gives us area of 2D shapes
+#myArea takes 5 arguments and gives us area of 2D shapes
 def myArea(name, length, breadth, height, radius):
     name=name.lower()
     if name=="rectangle":
