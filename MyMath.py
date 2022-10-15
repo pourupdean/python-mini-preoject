@@ -30,7 +30,7 @@ def myvolume(name,length,breadth,height,radius):
     else:
         return(-1)
 
-# mycondition returns complementary angle for angles <=90 deg, suplementary angle for angles <= 180 deg
+# mycondition returns compdfxgchvjknlm,jmhnbvcxlementary angle for angles <=90 deg, suplementary angle for angles <= 180 deg
 # error is returned in other cases
 # mycondition also checks pythagoras theorem for 3 numbers and tells whether it is a py triplet or not 
 def mycondition(condition,a,b,c,angle):
